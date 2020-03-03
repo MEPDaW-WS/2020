@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html style="--offset-init:11px; --offset-content:11px; --offset-header:11px;" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MEPDaW 2020</title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Leaflet Business... -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+  <!-- <link ref="stylesheet" href="css/leaflet.css" /> -->
+  <script src="js/leaflet.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#site-nav">
+<!--*************  IMPORTED SCRIPTS ************* -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smooth-scroll.min.js"></script>
+<script src="js/main.js"></script>
+
+<!--Navigation Bar Definition-->
+<nav id="site-nav" class="navbar navbar-fixed-top navbar-custom navbar-solid">
+  <div class="container">
+    <div class="navbar-header">
+      <div class="site-branding">
+        <a class="logo" href="#">
+          MEPDaW 2020
+	  <!-- <img src="img/logo2020.png" alt="Logo" style="width:120px;padding-top: 7px;"> -->
+        </a>
+      </div>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items"
+              aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-items">
+      <ul class="nav navbar-nav navbar-left">
+        <li class="active"><a data-scroll="" href="#about">About</a></li>
+        <li><a data-scroll="" href="#paper_submissions">Call for papers</a></li>
+        <li><a data-scroll="" href="#important_dates">Important dates</a></li>
+        <li><a data-scroll="" href="#program">Program</a></li>
+        <!--<li><a href="">Proceedings</a></li>-->
+        <li><a data-scroll="" href="#committee">Committee</a></li>
+        <li><a data-scroll="" href="#venue">Location</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="section about" style="padding:0">
+  <div class="container">
+    <!-- *************** Main Entry Stuff ***************-->
+    <div class="row">
+      <div class="col-lg-12 uOffset">
+        <br>
+        <h1 style="padding-top:25px">MEPDaW'20 - Managing the Evolution and Preservation of the Data Web</h1>
+        <p>6th MEPDaW Workshop at ISWC'20, November 2-3 2020, Athens, Greece</p>
+        <div class="row">
+          <div class="col-lg-12"><img class="img-responsive" src="img/visual_banner.png" alt="visual banner"></div>
+        </div>
+      </div>
+      <div class="col-lg-8">
+        <!-- *************** About Entry Stuff ***************-->
+        <div class="uHeader page-header">
+          <h2 id="about" class="uContent">About</h2>
+        </div>
+        <div class="bs-component">
+	  <p>
+	    There is a vast and rapidly increasing quantity of
+	    scientific, corporate, government, and crowd-sourced data
+	    published on the emerging Data
+	    Web. Moreover, <strong>knowledge graphs</strong> have
+	    emerged as scalable knowledge models for integrating data
+	    collected from heterogeneous data sources, e.g., Data Web,
+	    and representing the meaning of these data and their
+	    properties. Knowledge graphs enable the modeling of facts
+	    that correspond to items of data, knowledge, or actionable
+	    insights, as well as the relations among these facts. The
+	    wide amount of sources of data and knowledge, offers a
+	    great potential for building innovative products and
+	    services that create new value; they are expected to
+	    foster active citizenship (e.g., around topics of
+	    journalism, greenhouse gas emissions, food supply-chains,
+	    smart mobility) and world-wide research according to the
+	    “fourth paradigm of science”.
+	  </p>
+	  <p>
+	    Open access datasets are publicly available on the
+	    Web. The traditional way of digitally preserving them by
+	    “locking them away” for future use, conflicts with their
+	    evolution. There are a number of approaches and frameworks
+	    that manage a full life-cycle of the Data Web and
+	    knowledge graphs. More specifically, these techniques are
+	    expected to tackle major issues such as<b><i>the
+	    synchronisation problem </i></b>(how to monitor
+	    changes)<b><i>, the curation problem </i></b>(how to
+	    repair data imperfections and add value over time)<b><i>,
+	    the appraisal problem </i></b>(how to assess the quality
+	    of a source of data or knowledge)<b><i>, the citation and
+	    provenance problem </i></b>(how to cite a particular
+	    version, how to keep the lineage/provenance)<b><i>, the
+	    archiving problem </i></b>(how to retrieve the most recent
+	    or a particular version of a source)<b><i>, and the
+	    sustainability problem </i></b>(how to support
+	    preservation at scale, ensuring long-term access).
+	  </p>
+	  <blockquote>
+	    <p>
+	      This workshop targets one of the emerging and
+	      fundamental problems in the Web, specifically
+	      the <strong>management and preservation of evolving
+	      knowledge graphs</strong>.
+	    </p>
+	  </blockquote>
+	  <p>
+	    This topic is of particular relevance to The Web
+	    Conference since it raises awareness of the many research
+	    challenges for preserving and managing knowledge graphs
+	    that evolve over time. Fostering active usage of such
+	    evolving knowledge graphs requires further research
+	    advances on topics such as storage, synchronisation,
+	    change representation and querying. Solutions to these
+	    problems correspond to main subjects of interests of the
+	    workshop.
+	  </p>
+        </div>
+
+	
+        <!-- *************** Paper Submission Guidelines Stuff ***************-->
+        <div class="uHeader page-header">
+          <h2 id="paper_submissions" class="uContent">Call for papers</h2>
+        </div>
+        <div class="bs-component">
+	  <p>
+	    This workshop aims at addressing challenges and issues on
+	    managing Knowledge Graph evolution and preservation by
+	    providing a forum for researchers and practitioners to
+	    discuss, exchange and disseminate their ideas and work, to
+	    network and cross-fertilise new ideas.
+	  </p>
+	  <p>
+	    Topics of interest include, but are not limited to themes
+	    related to the evolution and preservation of Knowledge
+	    Graphs:
+	  </p>
+	  <ul>
+	    <li><b>Management and Governance of Evolution in Knowledge Graphs</b></li>
+	    <ul>
+	      <li>Representation, maintenance of versions & changes (change representation and detection)</li>
+	      <li>Efficient indexing and update of Knowledge Graphs</li>
+	      <li>Synchronization of distributed versions</li>
+	      <li>Federated Knowledge Graph governance</li>
+	    </ul>
+	    <li><b>Reasoning and Prediction over Evolving Knowledge Graphs</b></li>
+	    <ul>
+	      <li>Techniques for extracting and predicting evolving patterns</li>
+	      <li>Maintenance of explicit and implicit knowledge</li>
+	      <li>Trend analysis of evolving knowledge graphs</li>
+	      <li>Concept drift detection and prediction over knowledge graphs</li>
+	    </ul>
+	    <li><b>Visualization and Exploration of Evolving Knowledge Graphs</b></li>
+	    <ul>
+	      <li>Visual summarization of evolving knowledge</li>
+	      <li>User interfaces for exploring evolving knowledge graphs</li>
+	      <li>Visualisation of quality in knowledge graphs</li>
+	    </ul>
+	    <li><b>Preservation of Evolving Knowledge Graphs</b></li>
+	    <ul>
+	      <li>Preservation of context, provenance and background knowledge</li>
+	      <li>Efficient and effective solutions for preserving evolving knowledge graphs</li>
+	      <li>Models for representing provenance and evolution</li>
+	    </ul>
+	    <li><b>Quality of Evolving Knowledge Graphs</b></li>
+	    <ul>
+	      <li>Change-detection based quality assessment and validation</li>
+	      <li>Quality trends and prediction in evolving knowledge graphs</li>
+	      <li>Hybrid approaches for knowledge graph curation</li>
+	    </ul>
+	    <li><b>Evaluation of Knowledge Graph Evolution</b></li>
+	    <ul>
+	      <li>Benchmarks for managing, predicting, and curating evolution</li>
+	      <li>Real-world applications of evolving knowledge graphs</li>
+	      <li>Automatic and human-based techniques for evaluating evolving knowledge graph</li>
+	    </ul>
+	  </ul>
+	  <hr>
+	  <p>
+	    We envision <b>four</b> types of submissions covering the
+	    entire workshop topics spectrum:
+	  </p>
+	  <ol>
+	    <li><u>Research Papers</u> (max 10 pages), presenting
+	    novel scientific research addressing topics of the
+	    workshop.</li>
+	    <li><u>Position & Demo papers</u> (max 5 pages),
+	    encouraging papers describing significant work in
+	    progress, late breaking results or ideas of the domain, as
+	    well as functional systems relevant to the community.
+	    <li><u>Industry & Use Case Presentations</u> (max 5
+	    pages), in which industry experts can present and discuss
+	    practical solutions, use case prototypes, best practices,
+	    etc. at any stage of implementation.</li>
+	    <li><u>Expression of Interest</u> (max 2 pages),
+	    presenting a research topic, a work in progress, practical
+	    applications or needs, etc.</li>
+	  </ol>
+	  <hr>
+	  <p>
+	    The proceedings of the workshops will be published in the
+	    CEUR-WS. Papers must be submitted in PDF according to the
+	    LLNCS format or in HTML. The PDF files must have all
+	    non-standard fonts embedded. Workshop submissions must be
+	    self-contained and in English.
+	  </p>
+	  <p>
+	    All papers should be submitted to <a href="https://easychair.org/conferences/?conf=mepdaw2020">https://easychair.org/conferences/?conf=mepdaw2020</a>.
+	  </p>
+        </div>
+
+        <!-- *************** Important Dates Stuff ***************-->
+        <div class="uHeader page-header">
+          <h2 id="important_dates" class="uContent">Important Dates</h2>
+        </div>
+	<div class="bs-component">
+          <ul>
+	    <li>Submission: July 1, 2020</li>
+            <li>Notification: August 3, 2020</li>
+            <li>Camera-ready: September 2, 2020</li>
+            <li>Presentation: November 2-3, 2020</li>
+          </ul>
+        </div>
+	
+	<!-- ********* TODO : ADD THE REAL PROGRAM HERE *****-->
+        <div class="uHeader page-header">
+          <h1 id="program" class="uContent">Program</h1>
+        </div>
+        <div class="bs-component">
+	  TBA.
+	</div>
+
+        <!-- *************** Committee & Organisation Stuff ***************-->
+        <div class="uHeader page-header">
+          <h2 id="committee" class="uContent">Committee</h2>
+        </div>
+        <div class="bs-component">
+          <h3>Organisers</h3>
+	  <ul>
+	    <li><a href="https://badmotor.github.io/">Fabrizio
+	    Orlandi</a> (ADAPT Centre, Trinity College Dublin,
+	    Ireland) is a Senior Research Fellow at Trinity College
+	    Dublin. His research focuses on knowledge management,
+	    Linked (Open) Data, Big Data technologies, data governance
+	    and personalisation. Prior to joining ADAPT he worked as
+	    post-doctoral researcher at Fraunhofer IAIS applying his
+	    research on large EU-funded and industry projects.</li>
+	    <li><a href="https://dgraux.github.io/">Damien Graux</a>
+	    (ADAPT Centre, Trinity College Dublin, Ireland) is a
+	    Senior Research Fellow at the ADAPT Centre in Trinity
+	    College Dublin. He has been contributing to research
+	    efforts in Semantic Web technologies and focusing on
+	    distributed query evaluation and on designing complex
+	    transformation pipelines for heterogeneous Big Data. Prior
+	    to joining ADAPT, he was a senior researcher at Fraunhofer
+	    IAIS (Germany).</li>
+	    <li><a href="https://www.tib.eu/en/research-development/scientific-data-management/staff/maria-esther-vidal/">Maria-Esther
+	    Vidal</a> (Universidad Simon Bolivar and Technische
+	    Informationsbibliothek (TIB)) is a full professor
+	    (on-leave) at Universidad Simón Bolívar (USB) Venezuela
+	    and a Research Scientist at the Technische
+	    Informationsbibliothek (TIB). Her interests include data
+	    and knowledge management, knowledge representation, big
+	    data, and semantic web.</li>
+	    <li><a href="">Javier D. Fernández</a>
+	    (F. Hoffmann-La Roche AG in Switzerland) is an information
+	    architect at Roche based in Basel. Before joining
+	    Switzerland, Javier was a post-doctoral research fellow at
+	    Vienna University where he focused on efficient management
+	    of Big Semantic Data, privacy-aware Big Data technologies,
+	    RDF streaming, archiving and querying dynamic Linked
+	    Data.</li>
+	    <li><a href="">Jeremy Debattista</a> (TopQuadrant
+	    Inc.) is a Solutions Architect at TopQuadrant Inc. His
+	    research interests include Linked Data Quality, Big Linked
+	    Data, Data Governance, Knowledge Management and Machine
+	    Learning.</li>
+	  </ul>
+        </div>
+        <div class="bs-component">
+          <h3>Advisory Board</h3>
+	  <ul>
+	    <li>Laure Berti-Equille, IRD Marseille, France</li>
+	    <li>Declan O’Sullivan, ADAPT Centre, Trinity College Dublin, Ireland</li>
+	    <li>James Anderson, Dydra - Datagraph, USA</li>
+	    <li>Axel Polleres, Vienna University of Economics and Business, Austria</li>
+	  </ul>
+        </div>
+        <div class="bs-component">
+          <h3>Program Committee</h3>
+          <table>
+            <tbody>
+              <tr style="border-bottom: 1px solid;">
+		<th>Name</th>
+		<th>Affiliation</th>
+              </tr>
+	      <tr><td>Ioannis Chrysakis</td><td>FORTH-ICS, Greece; and Ghent University - IDLab – imec, Belgium</td></tr>
+	      <tr><td>Diego Collarana </td><td>Fraunhofer IAIS, Germany</td></tr>
+	      <tr><td>Harshvardhan J. Pandit</td><td>ADAPT Centre - Trinity College Dublin, Ireland</td></tr>
+	      <tr><td>Christophe Debruyne</td><td>Trinity College Dublin, Ireland</td></tr>
+	      <tr><td>Brecht Van de Vyvere</td><td>Ghent University, Belgium</td></tr>
+	      <tr><td>Natanael Arndt </td><td>Leipzig University, Germany</td></tr>
+	      <tr><td>Pieter Colpaert</td><td>Ghent University, Belgium</td></tr>
+	      <tr><td>James Anderson</td><td>datagraph, Germany</td></tr>
+	      <tr><td>Ruben Taelman</td><td> Ghent University – imec, Belgium</td></tr>
+	      <tr><td>Kemele M. Endris</td><td>L3S Research Center, Germany</td></tr>
+	      <tr><td>Luis Ibanez-Gonzalez</td><td>University of Southampton, England</td></tr>
+	      <tr><td>George Papastefanatos</td><td>IMIS / RC "Athena", Greece</td></tr>
+	      <tr><td>Giuseppe Pirrò</td><td>Sapienza University of Rome, Italy</td></tr>
+            </tbody>
+          </table>
+        </div>
+	
+      </div>
+      <div class="col-lg-4" style="padding-top:20px">
+        <div class="bs-component">
+          <h3>Important Dates</h3>
+          <ul>
+	    <li><u>Submission</u> (<a href="https://easychair.org/conferences/?conf=mepdaw2020">EasyChair</a>): July 1, 2020</li>
+            <li><u>Notification</u>: August 3, 2020</li>
+            <li><u>Camera-ready</u>: September 2, 2020</li>
+            <li><u>Presentation</u>: November 2-3, 2020</li>
+          </ul>
+        </div>
+        <!--Add Twitter-->
+        <div class="bs-component" style="padding-top:20px">
+	  <a class="twitter-timeline" href="https://twitter.com/mepdaw" data-widget-id="568782153191006208">@mepdaw</a>
+	  <script>
+	    ! function(d, s, id) {
+	     var js, fjs = d.getElementsByTagName(s)[0],
+	     p = /^http:/.test(d.location) ? 'http' : 'https';
+	     if (!d.getElementById(id)) {
+	      js = d.createElement(s);
+	      js.id = id;
+	      js.src = p + "://platform.twitter.com/widgets.js";
+	      fjs.parentNode.insertBefore(js, fjs);
+	     }
+	    }(document, "script", "twitter-wjs");
+	  </script>
+	</div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+
+<section id="venue" class="section location">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 uHeader">
+        <h2 class="section-title uContent">Event Location</h2>
+	<p>
+	  MEPDaW 2020 is co-located
+	  with <a href="https://iswc2020.semanticweb.org/">ISWC
+	    2020</a>.
+	</p>
+	<blockquote>
+	  Megaron Athens International Conference
+	  Centre<br>Vass. Sofias & Kokkali<br>115 21 Athens<br>Greece
+	</blockquote>
+	<p>
+	  <a href="https://iswc2020.semanticweb.org/attending/conference-venue/">More
+	  info.</a> about the venue.
+	</p>
+      </div>
+      <div class="col-sm-6 uContent">
+	<div id="mapid" style="width: 100%; height: 300px;"></div>
+	<script>
+	  // Creating the view.
+	  var mymap = L.map('mapid').setView([37.9806,23.7540], 9);
+	  
+	  // Importing the tile layer.
+	  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoidHlyZXgiLCJhIjoiY2l3eGozOHZqMDA3aTJ6bzZ4czRoc3o5ZiJ9.8tJDVR6Q9HV-CJm-FnuO_w', {
+	  maxZoom: 18,
+	  attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+	  '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+	  'Imagery &copy; <a href="http://mapbox.com">Mapbox</a>',
+	  id: 'mapbox.streets'
+	  }).addTo(mymap);
+	  
+	  // Telling where we are.
+	  L.marker([37.9805874,23.7540192]).addTo(mymap)
+	  .bindPopup("<center><b>MEPDaW 2020!</b>&#9786;</center>").openPopup();	  
+	</script>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h2 class="section-title uContent">Past Editions</h2>
+    <p>
+      The main focus of the workshop has always been on the
+      fundamental problem of managing the evolution and preservation
+      of the Data Web.
+    </p>
+    <ol>
+      <li><a href="http://ceur-ws.org/Vol-1377/">2015 — MEPDaW</a> was held for the first time at ESWC 2015.</li>
+      <li><a href="http://ceur-ws.org/Vol-1585/">2016 — MEPDaW</a> was held at ESWC 2016.</li>
+      <li><a href="http://ceur-ws.org/Vol-1824/">2017 — MEPDaW</a> was held at ESWC 2017.</li>
+      <li><a href="http://ceur-ws.org/Vol-2112/">2018 — MEPDaW</a> was held at ESWC 2018.</li>
+      <li><a href="https://dl.acm.org/doi/proceedings/10.1145/3308560">2019 — MEPDaW</a> was held at the Web Conference 2019.</li>
+    </ol>
+  </div>
+</section>
+
+<!--The Magic Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="site-info">
+	  Designed and <br> Developed by <a data-scroll=""
+					    href="#">MEPDaW 2020</a>
+	</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>window.onload = window.onresize;</script>
+
+</body>
+</html>
